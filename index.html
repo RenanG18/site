@@ -20,8 +20,9 @@ document.getElementById("texto").style.color="white";
 botao=document.createElement("button");
 botao.innerHTML="Clique aqui";
 var div=document.getElementById("div");
+div.appendChild(document.getElementById("texto"));
 div.appendChild(botao);
-
+div.style.backgroundColor="red";
 
 
     </script>
